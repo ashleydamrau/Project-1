@@ -1,0 +1,53 @@
+.navbar {
+  display: block;
+  padding: 12px;
+  border-bottom: 2px solid rgb(211, 209, 209);
+}
+
+.logo-image {
+  height: 170px;
+  width: 170px;
+}
+
+.nav-link {
+  color: black;
+  font-size: 25px;
+  margin: 15px;
+}
+
+.quote {
+  width: 170px;
+  text-align: center;
+  margin-right: 5px;
+  font-size: 18px;
+  border: 0.5px solid rgb(99, 99, 99);
+  padding: 5px;
+  border-radius: 20px;
+  font-weight: bold;
+  box-shadow: 5px 5px 10px rgba(165, 165, 165, 0.8);
+}
+
+.section-title {
+  text-align: center;
+  margin-bottom: 10px;
+}
+
+.main-page-image {
+  height: 300px;
+  width: 300px;
+}
+
+.top-section {
+  text-align: center;
+}
+
+.main-section {
+  border-bottom: 2px solid rgb(211, 209, 209);;
+}
+
+footer {
+  background-color: rgb(14, 14, 26);
+  color: white;
+  text-align: center;
+}
+
