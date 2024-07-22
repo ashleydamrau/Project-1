@@ -81,16 +81,15 @@ body {
 }
 
 .main-page-image-1 {
-  height: 350px;
-  width: 350px;
-  margin-bottom: 50px;
-  margin-left: 210px;
-  border-radius: 15px;
-  margin-top: 75px;
-
+  max-width: 100%;
+  height: auto;
+  display: block;
+  margin: auto;
+  padding: 25px;
+  border-radius: 50px;
 }
 
-.column-heading, .column-heading-2 {
+.column-heading {
   font-weight: bold;
   color: rgb(77, 112, 153);
   font-size: 40px;
@@ -103,12 +102,10 @@ body {
 }
 
 .main-section-commentary {
-  margin-right: 150px;
   font-size: 30px;
   color: rgb(69, 69, 69);
+  padding-right: 15px;
 }
-
-
 
 .lender-title {
   text-align: center;
@@ -145,8 +142,6 @@ body {
   display: flex;
   justify-content: center;
   text-align: center;
-  margin-left: 300px;
-  margin-right: 300px;
 }
 
 .about-us-section-title {
@@ -174,6 +169,7 @@ body {
 .about-us-text {
   display: flex;
   justify-content: center;
+  text-align: center;
   margin-bottom: 10px;
   margin-top: 30px;
 }
@@ -196,7 +192,9 @@ body {
 .about-us-list {
   list-style-type: none;
   font-size: 18px;
-  padding-bottom: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .about-us-last-comment {
@@ -220,16 +218,19 @@ body {
 .our-services-title, .our-services-title-2 {
   font-weight: bold;
   font-size: 45px;
-  padding-top: 105px;
-  padding-left: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
 }
 
 .our-services-comment, .our-services-comment-2 {
   font-weight: bold;
-  margin-bottom: 30px;
   font-size: 30px;
   font-style: italic;
-  padding-left: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .our-services-comment-2, .our-services-title-2 {
@@ -257,11 +258,11 @@ li {
 }
 
 .bank-image {
-  width: 400px;
-  height: 300px;
-  margin-top: 35px;
-  margin-left: 130px;
-
+  max-width: 100%;
+  height: auto;
+  display: block;
+  margin: auto;
+  border-radius: 25px;
 }
 
 /* our services section ends here */
@@ -274,7 +275,6 @@ li {
 }
 
 .private-division-section {
-  height: 550px;
   background-image: linear-gradient(
       rgba(255, 255, 255, 0.25),
       rgba(255, 255, 255, 0.25)
@@ -308,7 +308,6 @@ li {
   cursor: pointer;
   box-shadow: 2px 2px 2px rgba(0, 27, 107, 0.5);
   font-family: Verdana, Geneva, Tahoma, sans-serif;
-  margin-top: 37px;
 }
 
 .private-division-button:hover, .private-division-button:focus {
@@ -328,6 +327,7 @@ li {
   font-style: italic;
   display: flex;
   justify-content: center;
+  align-items: center;
 }
 
 .contact-form-section {
@@ -381,4 +381,21 @@ footer {
 .icon {
   margin-left: 15px;
   margin-top: 10px;
+}
+
+@media (max-width: 500px) {
+  footer {
+    height: 150px;
+  }
+
+  .private-division-button {
+    background: rgb(70, 141, 247);
+    color: rgb(255, 255, 255);
+    border: none;
+    border-radius: 50px;
+    height: 30px;
+    margin: 5px;
+    font-size: 12px;
+  }
+
 }
