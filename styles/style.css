@@ -89,16 +89,12 @@ body {
   border-radius: 50px;
 }
 
+
 .column-heading {
   font-weight: bold;
   color: rgb(77, 112, 153);
   font-size: 40px;
   margin-top: 130px;
-}
-
-.second-section {
-  padding-left: 150px;
-  margin-bottom: 75px;
 }
 
 .main-section-commentary {
@@ -215,7 +211,7 @@ body {
   font-size: 65px;
 }
 
-.our-services-title, .our-services-title-2 {
+.our-services-title {
   font-weight: bold;
   font-size: 45px;
   display: flex;
@@ -224,7 +220,7 @@ body {
 
 }
 
-.our-services-comment, .our-services-comment-2 {
+.our-services-comment {
   font-weight: bold;
   font-size: 30px;
   font-style: italic;
@@ -233,22 +229,14 @@ body {
   align-items: center;
 }
 
-.our-services-comment-2, .our-services-title-2 {
-  padding-left: 175px;
-}
-
 .our-services-section {
   background-color: rgb(243, 243, 243);
   margin-bottom: 30px;
   padding: 30px;
 }
 
-.our-services-list, .our-services-list-2 {
+.our-services-list{
   font-size: 20px;
-}
-
-.our-services-list-2 {
-  padding-left: 100px;
 }
 
 li {
